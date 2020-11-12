@@ -1,6 +1,6 @@
 # Diretivas ngIf_ngFor
 
-![Logo of the project]()
+![Logo of the project](https://gblobscdn.gitbook.com/spaces%2F-LAFAFKEinJy_kTY14OC%2Favatar.png?alt=media)
 ## Objetivo
 * mostrar de forma simples exemplos da exibição de dados na tela usando imperpolação ,ngIf e ngFor.
 
