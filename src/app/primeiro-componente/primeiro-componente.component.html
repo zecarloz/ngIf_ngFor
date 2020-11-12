@@ -1,0 +1,22 @@
+<h1>primeiro-componente</h1>
+<hr>
+<div>
+  <h4>{{meutitulo}}</h4>
+</div>
+<hr>
+<p> realizando operações +, -, *, /  (ex soma  10 + 10 )  = {{10+10}}</p>
+<hr>
+<p>{{texto1 + texto2}}</p>
+<hr>
+<p> E aí galerinha , {{texto2}}</p>
+<hr>
+<p>Escrito atraves de uma função => {{geraTexto()}}</p>
+<hr>
+id {{cliente.id }} - {{cliente.nome}}
+<hr>
+
+<div *ngFor="let umcliente of clientes">
+  <p *ngIf="umcliente.ativo">{{umcliente.id}} - {{umcliente.nome}}</p>
+</div>
+
+
